@@ -9,3 +9,6 @@ COMPANY: CODTECH IT SOLUTIONS
 
 #ABOUT THE PROJECT
 
+#OUTPUT
+
+![Image](https://github.com/user-attachments/assets/78767641-09aa-417f-bedc-f6b973b1a494)
