@@ -1,0 +1,48 @@
+<!-- courses.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Courses</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>LearnSphere</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="progress.html">Progress</a>
+      <a href="login.html">Login</a>
+      <button id="toggle-theme">🌓</button>
+    </nav>
+  </header>
+  <main>
+    <h2>Available Courses</h2>
+    <div class="filter-buttons">
+      <button onclick="filterCourses('all')">All</button>
+      <button onclick="filterCourses('beginner')">Beginner</button>
+      <button onclick="filterCourses('intermediate')">Intermediate</button>
+    </div>
+    <div class="course-list fade-in">
+      <div class="course-card beginner">
+        <h3>HTML Basics</h3>
+        <video controls src="assets/html_intro.mp4"></video>
+      </div>
+      <div class="course-card beginner">
+        <h3>CSS Fundamentals</h3>
+        <video controls src="assets/css_intro.mp4"></video>
+      </div>
+      <div class="course-card intermediate">
+        <h3>JavaScript Essentials</h3>
+        <video controls src="assets/js_intro.mp4"></video>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 LearnSphere</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
